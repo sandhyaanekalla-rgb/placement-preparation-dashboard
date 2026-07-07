@@ -139,21 +139,6 @@ Interview - HR Interview - Selected - Rejected
 
 ------------------------------------------------------------------------
 
-## 8. Notifications
-
-**Purpose:** Stores reminders and alerts.
-
-  Field            Type
-  ---------------- ----------
-  notificationId   ObjectId
-  userId           ObjectId
-  title            String
-  message          String
-  status           String
-  createdAt        Date
-
-------------------------------------------------------------------------
-
 # Entity Relationship
 
 
@@ -163,7 +148,6 @@ Users
 ├── CodingStats (1:Many)
 ├── DailyActivity (1:Many)
 ├── Goals (1:Many)
-├── Notifications (1:Many)
 └── StudentCompanyProgress (1:Many)
               │
               ▼
